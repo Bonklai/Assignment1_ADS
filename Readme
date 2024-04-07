@@ -1,0 +1,4 @@
+#Commit 1)The method takes three parameters: n (number of elements remaining to read), arr (ArrayList containing elements read so far), and scanner (Scanner object for input).
+It uses recursion to read n integers from the scanner and adds them to the ArrayList arr.
+When n becomes 0 (base case), it iterates over the elements in the ArrayList to find the minimum value.
+Finally, it returns the minimum value found.

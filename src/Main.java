@@ -2,19 +2,20 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public static int problem1_find_minimum(int n, ArrayList<Integer> arr, Scanner scanner){
-        if (n<=0){
-            int min = arr.get(0);
-            for(int i=0;i<arr.size();i++) {
-                if(min>arr.get(i))  min = arr.get(i);}
-            return min;
-        }
-        else{
-            arr.add(scanner.nextInt());
-            return problem1_find_minimum(n-1,arr,scanner);
-        }
-    }
-    public static void main(String[] args) {
 
+
+
+
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter task number:");
+        int task_number = scanner.nextInt();
+
+        if(task_number == 1){
+            int n = scanner.nextInt();
+            ArrayList<Integer> arr = new ArrayList<>();
+            System.out.println(Methods.problem1_find_minimum(n,arr,scanner));
+        }
     }
 }
