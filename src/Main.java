@@ -48,7 +48,11 @@ public class Main {
             if(Methods.problem8_allDigits(s)) System.out.println("Yes");
             else System.out.println("No");
         }else if (task_number == 9){
-
+            System.out.print("Enter n=");
+            int n = scanner.nextInt();
+            System.out.print("Enter k=");
+            int k = scanner.nextInt();
+            System.out.println(Methods.problem9_binomialCoefficient(n,k));
         }
 
     }
