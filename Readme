@@ -1,4 +1,47 @@
-#Commit 1)The method takes three parameters: n (number of elements remaining to read), arr (ArrayList containing elements read so far), and scanner (Scanner object for input).
-It uses recursion to read n integers from the scanner and adds them to the ArrayList arr.
-When n becomes 0 (base case), it iterates over the elements in the ArrayList to find the minimum value.
-Finally, it returns the minimum value found.
+Here is desciption of my methods
+#Commit 1: problem1_find_minimum()
+This method aims to find the minimum value among a list of integers provided by the user.
+It takes an integer n representing the number of elements to be entered, an ArrayList of integers arr to store the elements, and a Scanner object scanner for input.
+It recursively prompts the user to enter n integers and stores them in the array list. Once all elements are entered, it finds and returns the minimum value from the list.
+
+#Commit 2 :problem2_average()
+This method calculates the average of n integers provided by the user.
+It takes an integer n, an ArrayList of integers arr to store the elements, and a Scanner object scanner for input.
+It recursively prompts the user to enter n integers, calculates their sum, and returns the average value.
+
+#Commit 3: problem3_prime_number():
+This method determines whether a given number n is prime or not.
+It iteratively checks for factors of n and returns true if n has exactly two factors (1 and itself), indicating it is prime; otherwise, it returns false.
+
+#Commit 4:problem4_factorial_num():
+This method calculates the factorial of a given non-negative integer n.
+It uses recursion to compute the factorial, which is the product of all positive integers less than or equal to n.
+
+#Commit 5:problem5_fibonacci():
+This method calculates the n-th Fibonacci number recursively.
+It returns the n-th Fibonacci number where Fibonacci sequence starts from 0 and 1, and each subsequent number is the sum of the two preceding ones.
+
+#Commit 6:problem6_power():
+This method calculates the power of a given base a raised to an integer exponent n.
+It handles positive and negative exponents using recursion.
+
+#Commit 7:problem7_reverse():
+This method reverses the order of integers inputted by the user and prints them.
+It recursively prompts the user to enter n integers and then prints them in reverse order.
+
+#Commit 8: problem8_allDigits():
+This method checks if a given string s contains only digits.
+It recursively checks each character of the string and returns true if all characters are digits; otherwise, it returns false.
+
+#Commit 9:problem9_binomialCoefficient():
+This method calculates the binomial coefficient "n choose k" recursively.
+It applies the binomial coefficient formula using recursion to calculate combinations.
+
+#Commit 10:problem10_gcd():
+This method calculates the greatest common divisor (GCD) of two integers a and b using the Euclidean algorithm recursively.
+It repeatedly applies the Euclidean algorithm until the second number becomes zero, and then returns the first number, which is the GCD.
+
+
+
+
+
