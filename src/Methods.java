@@ -57,5 +57,16 @@ public class Methods {
             return 1 / (a * problem6_power(a, -n - 1));
         }
     }
+    public static void problem7_reverse(int n,Scanner scanner){
+        if(n==0) {
+
+        }
+        else{
+            int temp = scanner.nextInt();
+            problem7_reverse(n-1,scanner);
+            System.out.print(temp + " ");
+        }
+    }
+
 
 }

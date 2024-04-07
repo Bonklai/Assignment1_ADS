@@ -38,6 +38,10 @@ public class Main {
             System.out.print("n=");
             int n = scanner.nextInt();
             System.out.println(Methods.problem6_power(a,n));
+        }else if(task_number == 7){
+            System.out.print("Enter num:");
+            int n = scanner.nextInt();
+            Methods.problem7_reverse(n,scanner);
         }
 
     }
