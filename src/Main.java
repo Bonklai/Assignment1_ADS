@@ -28,7 +28,7 @@ public class Main {
             System.out.print("Enter a num:");
             if(Methods.problem3_prime_number(n)) System.out.println("Prime");
             else System.out.println("Coposite");
-        }
+        }//
 
     }
 }
