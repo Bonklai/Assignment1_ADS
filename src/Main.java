@@ -2,11 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-
-
-
-
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter task number:");
@@ -24,11 +19,16 @@ public class Main {
             int n = scanner.nextInt();
             System.out.println(Methods.problem2_average(n,arr,scanner));
         } else if (task_number == 3) {
-            int n = scanner.nextInt();
             System.out.print("Enter a num:");
+            int n = scanner.nextInt();
+
             if(Methods.problem3_prime_number(n)) System.out.println("Prime");
             else System.out.println("Coposite");
-        }//
+        }else if (task_number == 4){
+            System.out.print("Enter a num:");
+            int n = scanner.nextInt();
+            System.out.print(Methods.problem4_factorial_num(n));
+        }
 
     }
 }

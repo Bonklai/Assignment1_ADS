@@ -37,4 +37,9 @@ public class Methods {
         if(count==1) return true;
         else return false;
     }
+    public static int problem4_factorial_num(int n){
+        if (n <=1) return n;
+        else return n * problem4_factorial_num(n-1);
+    }
+
 }
