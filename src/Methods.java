@@ -41,5 +41,12 @@ public class Methods {
         if (n <=1) return n;
         else return n * problem4_factorial_num(n-1);
     }
+    public static int problem5_fibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        } else {
+            return problem5_fibonacci(n - 1) + problem5_fibonacci(n - 2);
+        }
+    }
 
 }
