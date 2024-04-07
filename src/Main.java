@@ -32,6 +32,12 @@ public class Main {
             System.out.print("Enter a num:");
             int n = scanner.nextInt();
             System.out.println(Methods.problem5_fibonacci(n));
+        }else if(task_number == 6){
+            System.out.print("Enter a for a^n  a=");
+            double a = scanner.nextDouble();
+            System.out.print("n=");
+            int n = scanner.nextInt();
+            System.out.println(Methods.problem6_power(a,n));
         }
 
     }

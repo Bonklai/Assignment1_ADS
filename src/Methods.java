@@ -48,5 +48,14 @@ public class Methods {
             return problem5_fibonacci(n - 1) + problem5_fibonacci(n - 2);
         }
     }
+    public static double problem6_power(double a, int n) {
+        if (n == 0) {
+            return 1;
+        } else if (n > 0) {
+            return a * problem6_power(a, n - 1);
+        } else {
+            return 1 / (a * problem6_power(a, -n - 1));
+        }
+    }
 
 }
