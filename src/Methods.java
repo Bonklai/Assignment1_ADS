@@ -67,6 +67,16 @@ public class Methods {
             System.out.print(temp + " ");
         }
     }
+    public static boolean problem8_allDigits(String s) {
+        if (s.isEmpty()) {
+            return true;
+        }
+        if (Character.isDigit(s.charAt(0))) {
+            return problem8_allDigits(s.substring(1));
+        }
+        return false;
+    }
+
 
 
 }

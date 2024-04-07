@@ -42,6 +42,13 @@ public class Main {
             System.out.print("Enter num:");
             int n = scanner.nextInt();
             Methods.problem7_reverse(n,scanner);
+        }else if(task_number == 8){
+            System.out.print("Enter a string:");
+            String s = scanner.next();
+            if(Methods.problem8_allDigits(s)) System.out.println("Yes");
+            else System.out.println("No");
+        }else if (task_number == 9){
+
         }
 
     }
