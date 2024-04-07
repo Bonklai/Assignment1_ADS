@@ -76,6 +76,20 @@ public class Methods {
         }
         return false;
     }
+    public static int problem9_binomialCoefficient(int n, int k) {
+        if (k == 0 || k == n) {
+            return 1;
+        }
+        // Recurrence relation: C(n, k) = C(n-1, k-1) + C(n-1, k)
+        return problem9_binomialCoefficient(n - 1, k - 1) + problem9_binomialCoefficient(n - 1, k);
+    }
+    public static int problem10_gcd(int a, int b) {
+        if (b == 0) {
+            return a;
+        }
+        // Recursive step: gcd(a, b) = gcd(b, a % b)
+        return problem10_gcd(b, a % b);
+    }
 
 
 

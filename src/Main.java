@@ -53,7 +53,15 @@ public class Main {
             System.out.print("Enter k=");
             int k = scanner.nextInt();
             System.out.println(Methods.problem9_binomialCoefficient(n,k));
+        }else if(task_number == 10){
+            System.out.print("Enter a=");
+            int a = scanner.nextInt();
+            System.out.print("Enter b=");
+            int b = scanner.nextInt();
+            System.out.println(Methods.problem10_gcd(a,b));
         }
-
+        else{
+            System.out.println("Wrong!");
+        }
     }
 }
